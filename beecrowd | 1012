@@ -1,0 +1,12 @@
+a, b, c = input().split()
+areatri = (float(a)*float(c))/2
+areacir = 3.14159 * (float(c)**2)
+areatra = ((float(a)+float(b))*float(c))/2
+areaqua = float(b)**2
+arearet = float(a)*float(b)
+
+print("TRIANGULO: {:.3f}".format(areatri))
+print("CIRCULO: {:.3f}".format(areacir))
+print("TRAPEZIO: {:.3f}".format(areatra))
+print("QUADRADO: {:.3f}".format(areaqua))
+print("RETANGULO: {:.3f}".format(arearet))
