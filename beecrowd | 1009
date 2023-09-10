@@ -1,0 +1,5 @@
+x = input()
+y = float(input())
+z = float(input())
+salario = (y + (z*(15/100)))
+print("TOTAL = R$ {:.2f}".format(salario))
