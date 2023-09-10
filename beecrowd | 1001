@@ -1,0 +1,4 @@
+x = int(input())
+y = int(input())
+X = x + y
+print("X = %d" %X)
