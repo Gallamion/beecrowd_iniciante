@@ -1,0 +1,10 @@
+import math
+
+p1 = input().split()
+a, b = float(p1[0]), float(p1[1])
+
+p2 = input().split()
+c, d = float(p2[0]), float(p2[1])
+
+distancia = math.sqrt(((c - a)**2) + ((d - b)**2))
+print("{:.4f}".format(distancia))
