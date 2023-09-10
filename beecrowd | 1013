@@ -1,0 +1,7 @@
+numero = input().split()
+a, b, c = int(numero[0]), int(numero[1]), int(numero[2])
+
+maiorab = (a+b+abs(a-b))/2
+maiorabc = (maiorab+c+abs(maiorab-c))/2
+
+print("%d eh o maior" %maiorabc)
