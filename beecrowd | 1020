@@ -1,0 +1,9 @@
+tempo= int(input())
+ano = tempo / 365
+restoA = tempo % 365
+restoM = restoA % 30
+mes = restoA / 30
+dia = restoM % 30
+print("{} ano(s)".format(int(ano)))
+print("{} mes(es)".format(int(mes)))
+print("{} dia(s)".format(int(dia)))
