@@ -1,0 +1,14 @@
+import math 
+
+numero = input().split()
+a, b, c = float(numero[0]), float(numero[1]), float(numero[2])
+
+if((b**2 -4*a*c < 0 or a == 0)):
+    print("Impossivel calcular");
+else:
+    r1 = (-b + math.sqrt(b**2 -4*a*c))/(2*a);
+    r2 = (-b - math.sqrt(b**2 -4*a*c))/(2*a);
+    raiz1 = round(r1, 5);
+    raiz2 = round(r2, 5);
+    print("R1 = {}" .format(raiz1));
+    print("R2 = {}" .format(raiz2));
